@@ -239,16 +239,21 @@ html {
 	&__dots {
 		position: absolute;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		z-index: -1;
 		top: 47px;
-		left: 120px;
-		right: 120px;
+		left: 130px;
+		right: 130px;
 
 		&-wrapper {
 			display: flex;
 			justify-content: center;
-			width: 209px;
+			width: 210px;
+			margin-right: 50px;
+
+			&:last-child {
+				margin-right: 0;
+			}
 		}
 
 		&-dot {
@@ -273,8 +278,7 @@ html {
 		padding: 0;
 		justify-content: space-between;
 		margin-bottom: 80px;
-		gap: 10px;
-
+		gap: 25px;
 		&-wrapper {
 			position: relative;
 			z-index: 1;
